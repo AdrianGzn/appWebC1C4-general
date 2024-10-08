@@ -1,0 +1,44 @@
+#container{
+    width: 90%;
+    min-width: 350px;
+    height: auto;
+    border: 3px solid #0073DF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px 0;
+}
+
+#container-title{
+    width: 100%;
+}
+
+#container-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#title{
+    font-size: 25px;
+    margin: 15px 30px 10px;
+}
+
+.comidas{
+    margin: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle{
+    font-size: 15;
+    margin-bottom: 0;
+}
+
+.calories{
+    font-size: 13px;
+    color: #0073DF;
+    margin-top: 0;
+}

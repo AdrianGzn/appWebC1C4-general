@@ -1,0 +1,24 @@
+#container {
+    width: 90%;
+    min-width: 350px;
+    height: auto;
+    border: 3px solid #0073DF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px 0;
+}
+
+#chart {
+  width: 60%;
+  min-width: 340px;
+  height: auto;
+  margin: 20px 0;
+}
+
+#title{
+  font-size: 25px;
+  margin: 20px 0;
+}

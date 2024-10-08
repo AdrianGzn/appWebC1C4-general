@@ -1,0 +1,34 @@
+<form class="form" [formGroup]="formPersonalData">
+
+    <label id="title">Ingrese sus datos</label>
+
+    <div class="campo">
+        <label class="form-child-label">Edad:</label>
+        <input class="form-child" type="text" formControlName="age">
+        <p class="subtitle">1-100 años</p>
+    </div>
+
+    <div class="campo">
+        <label class="form-child-label">Altura:</label>
+        <input class="form-child" type="text" formControlName="heigth">
+        <p class="subtitle">10-250cm</p>
+    </div>
+
+    <div class="campo">
+        <label class="form-child-label">Peso:</label>
+        <input class="form-child" type="text" formControlName="weight">
+        <p class="subtitle">1-300 kg</p>
+    </div>
+
+    <div class="campo">
+        <label class="form-child-label">Género:</label>
+        <input class="form-child" type="text" formControlName="gender">
+        <p class="subtitle">masculino/femenino</p>
+    </div>
+    
+    <button class="form-child" (click)="submit()">Calcular</button>
+
+    <div id="message">
+        <p>{{messageChild}}</p>
+    </div>
+</form>
