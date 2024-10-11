@@ -4,11 +4,13 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { FormDataComponent } from './components/form-data/form-data.component';
 import { CaloriesSectionComponent } from './components/calories-section/calories-section.component';
 import { InfoGraphicComponent } from './components/info-graphic/info-graphic.component';
+import { ContainerCardsComponent } from './components/container-cards/container-cards.component';
+import { CardComponent } from './components/card/card.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ReactiveFormsModule, FormDataComponent, CaloriesSectionComponent, InfoGraphicComponent],
+  imports: [RouterOutlet, ReactiveFormsModule, FormDataComponent, CaloriesSectionComponent, InfoGraphicComponent, ContainerCardsComponent, CardComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
