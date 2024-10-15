@@ -1,7 +1,11 @@
 <div id="container">
 
-    <div *ngFor="let item of posts">
-        <app-card [post]="item"></app-card>
+    <div id="container-child">
+
+        <div id="container-child_card" *ngFor="let item of posts">
+            <app-card [post]="item"></app-card>
+        </div>
+    
     </div>
 
 </div>
